@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/strong-girl/static/css/main.988df091.css",
-    "main.js": "/strong-girl/static/js/main.817a4e1d.js",
+    "main.js": "/strong-girl/static/js/main.cf2592ab.js",
     "static/js/453.64e178cd.chunk.js": "/strong-girl/static/js/453.64e178cd.chunk.js",
     "static/media/strong-girl.png": "/strong-girl/static/media/strong-girl.f473587df51229858ca7.png",
     "index.html": "/strong-girl/index.html",
     "main.988df091.css.map": "/strong-girl/static/css/main.988df091.css.map",
-    "main.817a4e1d.js.map": "/strong-girl/static/js/main.817a4e1d.js.map",
+    "main.cf2592ab.js.map": "/strong-girl/static/js/main.cf2592ab.js.map",
     "453.64e178cd.chunk.js.map": "/strong-girl/static/js/453.64e178cd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.988df091.css",
-    "static/js/main.817a4e1d.js"
+    "static/js/main.cf2592ab.js"
   ]
 }
