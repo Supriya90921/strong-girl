@@ -83,7 +83,7 @@ const Features = () => {
                   width: 400,
                   height: 400,
                   borderRadius: "50%",
-                  background: "radial-gradient(circle, rgba(246, 1, 181, 0.4) 0%, transparent 60%)",
+                  background: "radial-gradient(circle, rgba(246, 1, 181, 0.73) 0%, transparent 60%)",
                   pointerEvents: "none",
                   zIndex: 0,
                 }}
