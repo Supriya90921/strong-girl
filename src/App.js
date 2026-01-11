@@ -17,6 +17,7 @@ function App() {
       <PeriodTracker/>
 
         <Features />
+    <DailyTracker/>
     </>
   );
 }
