@@ -5,6 +5,7 @@ import PeriodTracker from "./Components/PeriodTracker";
 import DailyTracker from "./Components/DailyTracker";
 import Features from "./Components/Features";
 import Motivation from "./Components/Motivation";
+import Footer from "./Components/Footer";
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
         <Features />
     <DailyTracker/>
     <Motivation />
+    <Footer />
     </>
   );
 }
