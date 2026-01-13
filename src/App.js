@@ -6,6 +6,9 @@ import DailyTracker from "./Components/DailyTracker";
 import Features from "./Components/Features";
 import Motivation from "./Components/Motivation";
 import Footer from "./Components/Footer";
+import PrivacyPolicy from "./pages/PrivacyPolicy";
+
+
 
 
 function App() {
@@ -22,6 +25,7 @@ function App() {
     <DailyTracker/>
     <Motivation />
     <Footer />
+    <Route path="/privacy-policy" element={<PrivacyPolicy />} />
     </>
   );
 }
