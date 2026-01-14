@@ -1,0 +1,33 @@
+.motivation-card {
+  background: #fff3e0;
+  border-radius: 12px;
+  padding: 20px;
+  margin: 20px 0;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
+.motivation-card h2 {
+  color: #ff6f00;
+  margin-bottom: 15px;
+}
+
+.motivation-card p {
+  font-size: 16px;
+  color: #6d4c41;
+  margin-bottom: 15px;
+}
+
+.motivation-card button {
+  padding: 10px 20px;
+  background: #ff6f00;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.motivation-card button:hover {
+  background: #e65100;
+}
