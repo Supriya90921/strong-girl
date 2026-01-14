@@ -1,13 +1,11 @@
-
-import "<div className="" />
-<styles />Footer.css";
+import React from 'react';
+import './styles/Footer.css'; 
 
 function Footer() {
   return (
-    <footer className="footer">
-      <p>💪 Strong Girl © {new Date().getFullYear()}</p>
-      <p>Built with ❤️ to empower women</p>
-    </footer>
+    <div className="footer">
+      <p>© 2026 Strong Girl</p>
+    </div>
   );
 }
 
