@@ -1,3 +1,4 @@
+
 .checkin-form {
   background: #ffffff;
   padding: 20px;
@@ -42,3 +43,49 @@
 .checkin-form button:hover {
   background: #4a148c;
 }
+
+.checkin-form {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  margin-bottom: 30px;
+}
+
+.checkin-form h2 {
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.checkin-form input,
+.checkin-form select,
+.checkin-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  outline: none;
+}
+
+.checkin-form input:focus,
+.checkin-form select:focus,
+.checkin-form textarea:focus {
+  border-color: #6a1b9a;
+}
+
+.checkin-form button {
+  width: 100%;
+  padding: 12px;
+  background: #6a1b9a;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.checkin-form button:hover {
+  background: #4a148c;
+}
+
