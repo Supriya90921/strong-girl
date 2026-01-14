@@ -7,6 +7,7 @@ import Features from "./Components/Features";
 import Motivation from "./Components/Motivation";
 import Footer from "./Components/Footer";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 
 
