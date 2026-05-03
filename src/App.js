@@ -1,32 +1,38 @@
-// App.js
-import HeroSection from "./Components/Herosection";
+import { Routes, Route } from "react-router-dom";
+
 import Navbar from "./Components/Navbar";
+import HeroSection from "./Components/Herosection";
 import PeriodTracker from "./Components/PeriodTracker";
-import DailyTracker from "./Components/DailyTracker";
 import Features from "./Components/Features";
+import DailyTracker from "./Components/DailyTracker";
 import Motivation from "./Components/Motivation";
 import Footer from "./Components/Footer";
-import PrivacyPolicy from "./pages/PrivacyPolicy";
-import { HashRouter  as Router, Routes, Route } from "react-router-dom";
 
-
-
+function Home() {
+  return (
+    <>
+     
+      
+      
+    
+    </>
+  );
+}
 
 function App() {
   return (
     <>
       <Navbar />
-     
-    
-      <HeroSection/>
+       <HeroSection />
+       <Features />
+       <PeriodTracker />
+      <DailyTracker />
+      <Motivation />
       
-      <PeriodTracker/>
-
-        <Features />
-    <DailyTracker/>
-    <Motivation />
-    <Footer />
-    <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+         <Footer />
+      <Routes>
+        <Route path="/" element={<Home />} />
+      </Routes>
     </>
   );
 }
