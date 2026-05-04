@@ -1,4 +1,4 @@
-// src/pages/AboutPCOS.jsx
+// src/pages/AboutPCOS.jsx...
 const About = () => (
   <div style={{ padding: "50px 20px", textAlign: "center" }}>
     <h1>About PCOS</h1>
