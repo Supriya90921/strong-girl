@@ -1,0 +1,92 @@
+/* Login.module.css */
+
+.page {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #ffffff;
+  font-family: inherit;
+}
+
+.card {
+  width: 380px;
+  padding: 35px;
+  border-radius: 20px;
+  background: #fff;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  border-top: 5px solid #ff4d6d;
+}
+
+/* Title uses your hero text color */
+.title {
+  font-size: 28px;
+  font-weight: 600;
+  color: rgb(23, 156, 159);
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 25px;
+}
+
+/* form spacing */
+.formGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.input {
+  margin-bottom: 17px;
+  width: 93%;
+  padding: 14px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+/* focus matches theme */
+.input:focus {
+  border-color: rgb(23, 156, 159);
+  outline: none;
+  box-shadow: 0 0 6px rgba(23, 156, 159, 0.3);
+}
+
+/* button EXACT hero button color */
+.button {
+  width: 100%;
+  padding: 14px;
+  margin-top: 20px;
+  border: none;
+  border-radius: 10px;
+  background: #ff4d6d;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.button:hover {
+  transform: scale(1.05);
+}
+
+/* footer */
+.footerText {
+  margin-top: 15px;
+  font-size: 13px;
+}
+
+.link {
+  color: rgb(23, 156, 159);
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
