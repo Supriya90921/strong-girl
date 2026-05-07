@@ -11,6 +11,7 @@ import Footer from "./Components/Footer";
 import Login from "./Pages/Login";
 import Registration from "./Pages/Registration";
 
+
 function Home() {
   return (
     <>
